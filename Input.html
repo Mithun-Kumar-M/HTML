@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Input Form with Formatting Tags</title>
+</head>
+<body>
+
+  <h2>User Information Form</h2>
+
+  <form>
+    <label><b>Name:</b></label><br>
+    <input type="text" name="name"><br><br>
+
+    <label><b>Password:</b></label><br>
+    <input type="password" name="password"><br><br>
+
+    <label><b>Gender:</b></label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label><b>Hobbies:</b></label><br>
+    <input type="checkbox" name="hobby" value="cricket"> Cricket
+    <input type="checkbox" name="hobby" value="music"> Music<br><br>
+
+    <label><b>Upload File:</b></label><br>
+    <input type="file"><br><br>
+
+    <label><b>Date of Birth:</b></label><br>
+    <input type="date"><br><br>
+
+    <label><b>Favorite Color:</b></label><br>
+    <input type="color"><br><br>
+
+    <label><b>Email:</b></label><br>
+    <input type="email"><br><br>
+
+    <label><b>Age:</b></label><br>
+    <input type="number" min="18" max="60"><br><br>
+
+    <label><b>Volume (Range):</b></label><br>
+    <input type="range" min="0" max="100"><br><br>
+
+    <label><b>Search:</b></label><br>
+    <input type="search"><br><br>
+
+    <label><b>Phone:</b></label><br>
+    <input type="tel"><br><br>
+
+    <label><b>Time:</b></label><br>
+    <input type="time"><br><br>
+
+    <label><b>Select City:</b></label><br>
+    <select>
+      <option>Bangalore</option>
+      <option>Hyderabad</option>
+      <option>Chennai</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+  </form>
+
+  <hr>
+
+  <h3>Text Formatting Tags Example:</h3>
+  <p><b>This is bold text.</b></p>
+  <p><i>This is italic text.</i></p>
+  <p><u>This is underlined text.</u></p>
+  <p>This is 10<sup>2</sup> (superscript).</p>
+  <p>This is H<sub>2</sub>O (subscript).</p>
+
+</body>
+</html>
